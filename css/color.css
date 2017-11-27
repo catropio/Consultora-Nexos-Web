@@ -50,12 +50,12 @@ a:active,
 .tg-headervsix .navbar-toggle .icon-bar{ background:#327FA4; }
 .tg-parallaxservices,
 .tg-homeslidervfour figcaption,
-.tg-parallaxclientfeedback,
 .tg-innerbannervsix figure figcaption,
 .tg-portfoliovfive .tg-portfolioitem:hover figcaption,
 .tg-blogpostvone .tg-post:hover figure figcaption,
 .tg-hover,
 .tg-portfolioitem figure:hover .tg-hovervone{ background:rgba( 50,127,164, 0.10); }
+.tg-parallaxclientfeedback{ background:rgba( 50,127,164, 0.90); }
 /*=============================================
 			Theme Border Color
 =============================================*/

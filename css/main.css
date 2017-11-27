@@ -464,6 +464,11 @@ li.tg-rss a { background:#ff6600; }
 	display: inline-block;
 	vertical-align: middle;
 }
+
+.services-description p{
+	overflow: visible;
+}
+
 .tg-description {
 	width: 100%;
 	float: left;
@@ -739,6 +744,9 @@ li.tg-rss a { background:#ff6600; }
 .tg-btns{
 	width: 100%;
 	float: left;
+}
+#tg-btn-formacion{
+	margin-top: 10px !important;
 }
 .tg-minicart .tg-btns{padding: 13px 0 0;}
 .tg-minicart .tg-btns a{
@@ -1312,7 +1320,7 @@ li.menu-item-has-children:hover > .mega-menu{
 }
 .tg-fixedheader .tg-logo{}
 .tg-fixedheader .tg-logo a{
-	width: 134px;
+	width: 250px; /*Original was 134px*/
 	height: 50px;
 	position: relative;
 }
@@ -2288,8 +2296,8 @@ li.menu-item-has-children:hover > .mega-menu{
 .tg-homeslider figure figcaption{
 	width: 100%;
 	float: left;
-	padding: 71px 0 0;
-	min-height: 920px;
+	padding: 50px 0 0; /*padding: 71px 0 0;*/
+	min-height: 720px; /*Original was 920px*/
 	text-align: center;
 	-webkit-box-align: center;
 	-ms-flex-align: center;
@@ -3308,7 +3316,7 @@ li.menu-item-has-children:hover > .mega-menu{
 	padding: 0 0 0 70px;
 }
 .tg-count{
-	top: 0;
+	top: 4px; /*Default was top:0;*/
 	left: 0;
 	color: #adadad;
 	position: absolute;
@@ -3460,6 +3468,7 @@ li.menu-item-has-children:hover > .mega-menu{
 	overflow: hidden;
 	position: relative;
 	border-radius: 5px;
+	max-width: 300px; /*Added, default was none*/
 }
 .tg-teammember figure a{display:block;}
 .tg-teammember figure img{
@@ -3661,6 +3670,16 @@ li.menu-item-has-children:hover > .mega-menu{
 .tg-parallaxnewsupdate{background: rgba(249,249,249,0.8);}
 .tg-parallaxnewsupdate .tg-sectionheadvtwo .tg-sectiontitle h2{color: #1c1c1c;}
 .tg-parallaxnewsupdate .tg-sectionheadvtwo .tg-sectiontitle:before{background: #1c1c1c;}
+.tg-newsupdates{
+	width: 100%;
+	float: left;
+}
+
+/*CUSTOM PARALLAX FOR CLIENT SLIDER*/
+
+.tg-parallaxclientslider{background: rgba(249,249,249,0.8);}
+.tg-parallaxclientslider .tg-sectionheadvtwo .tg-sectiontitle h2{color: #1c1c1c;}
+.tg-parallaxclientslider .tg-sectionheadvtwo .tg-sectiontitle:before{background: #1c1c1c;}
 .tg-newsupdates{
 	width: 100%;
 	float: left;
@@ -5778,7 +5797,7 @@ li.menu-item-has-children:hover > .mega-menu{
 ============================================= */
 .tg-aboutcreative{
 	padding:0 0 120px;
-	border-bottom:1px solid #dadada;
+	/*border-bottom:1px solid #dadada; Default was this*/
 }
 .tg-aboutcreative .tg-description{padding:0;}
 .tg-aboutskills{
@@ -7749,7 +7768,7 @@ blockquote{
 }
 .tg-ourprocess:nth-child(even){background:#f7f7f7;}
 .tg-processcontent{
-	height:283px;
+	height:auto; /*Default was 283px*/ 
 	text-align:left;
 	overflow:hidden;
 	padding:0 70px 0 0;
@@ -7795,13 +7814,17 @@ blockquote{
 }
 .tg-processcontent .tg-description p{
 	margin:0;
-	overflow: hidden;
-	display: -webkit-box;
+	overflow: hidden; /*Default was hidden*/
+	text-align: justify; /*Default was none*/
+	/*display: -webkit-box;
 	-webkit-line-clamp: 3;
-	-webkit-box-orient: vertical;
+	-webkit-box-orient: vertical;*/
+	display: inline-block;
 }
 .tg-ourprocess:nth-child(even) .tg-processimg{float:left;}
 .tg-ourprocess:nth-child(even) .tg-processcontent{padding:0 0 0 70px;}
+.tg-ourprocess:nth-child(2) .tg-processcontent{padding:0 0 0 0px;}
+/*.tg-ourprocess:nth-child(even) .tg-processcontent{padding:0 0 0 70px;}*/
 /* =============================================
 			Shop Detail							
 ============================================= */
