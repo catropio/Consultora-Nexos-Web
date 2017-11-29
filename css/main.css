@@ -3677,9 +3677,23 @@ li.menu-item-has-children:hover > .mega-menu{
 
 /*CUSTOM PARALLAX FOR CLIENT SLIDER*/
 
-.tg-parallaxclientslider{background: rgba(249,249,249,0.8);}
+.tg-parallaxclientslider{
+	background: rgba(249,249,249,0.8);
+	padding: 70px 0px 5px 0px;
+}
+.tg-parallaxcertifications{
+	background: rgba(249, 249, 249, .8);
+	padding: 70px 0px 5px 0px;
+}
 .tg-parallaxclientslider .tg-sectionheadvtwo .tg-sectiontitle h2{color: #1c1c1c;}
 .tg-parallaxclientslider .tg-sectionheadvtwo .tg-sectiontitle:before{background: #1c1c1c;}
+.tg-newsupdates{
+	width: 100%;
+	float: left;
+}
+
+.tg-parallaxcertifications .tg-sectionheadvtwo .tg-sectiontitle h2{color: #1c1c1c;}
+.tg-parallaxcertifications .tg-sectionheadvtwo .tg-sectiontitle:before{background: #1c1c1c;}
 .tg-newsupdates{
 	width: 100%;
 	float: left;
