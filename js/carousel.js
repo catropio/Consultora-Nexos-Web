@@ -25,7 +25,7 @@ $(document).ready(function(){
   $('.certification-logos').slick({
     slidesToShow: 4,
     slidesToScroll: 1,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 2000,
     arrows: false,
     dots: false,
