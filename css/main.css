@@ -5972,7 +5972,7 @@ li.menu-item-has-children:hover > .mega-menu{
 	text-align:center;
 	list-style-type:none;
 }
-.tg-address li + li{border-left:1px solid #e8e8e8;}
+.tg-address li + li{border-left:0px solid #e8e8e8;} /* Original was 1px */
 .tg-address li > i{
 	display:block;
 	font-size:40px;
