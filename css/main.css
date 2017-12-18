@@ -314,6 +314,7 @@ address { font-style: italic; }
 	float:left;
 }
 .tg-sectionspace {padding: 120px 0;}
+.tg-sectionspace2 {padding: 120px 0 0 40px;}
 .tg-locationmap {
 	width: 100%;
 	float: left;
@@ -5991,7 +5992,7 @@ li.menu-item-has-children:hover > .mega-menu{
 	margin:0 0 5px;
 	line-height:17px;
 }
-.tg-address li span + span{margin:0 0 25px;}
+.tg-address li span + span{margin:0 0 5px;} /*ORIGINAL WAS .tg-address li span + span{margin:0 0 25px;}*/
 .tg-address li > a{
 	display:block;
 	font-size:16px;
